@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.men.jang.skybox_surface_detetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <uses-feature
+13-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:6:5-78
+14        android:glEsVersion="0x00030000"
+14-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:6:19-51
+15        android:required="true" />
+15-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:6:52-75
+16    <uses-feature
+16-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:7:5-87
+17        android:name="android.hardware.camera.ar"
+17-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:7:19-60
+18        android:required="true" />
+18-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:7:61-84
+19
+20    <application
+20-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:9:5-24:19
+21        android:allowBackup="true"
+21-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:10:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8d1c0b96816f400bf1cc2ed91cf4e96b\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:11:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:13:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:14:9-35
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:15:9-40
+29        <activity android:name="com.men.jang.skybox_surface_detetection.MainActivity" >
+29-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:16:9-22:20
+29-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:16:19-47
+30            <intent-filter>
+30-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:17:13-21:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:18:17-69
+31-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:18:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:20:17-77
+33-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:20:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <meta-data
+37-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:23:9-81
+38            android:name="com.google.ar.core"
+38-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:23:20-53
+39            android:value="required" />
+39-->C:\Users\jangb\AndroidStudioProjects\Skybox_surface_detetection\app\src\main\AndroidManifest.xml:23:54-78
+40        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+41        <meta-data
+41-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:33:9-35:41
+42            android:name="com.google.ar.core.min_apk_version"
+42-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:34:13-62
+43            android:value="191106000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+43-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:35:13-38
+44        <activity
+44-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:37:9-43:80
+45            android:name="com.google.ar.core.InstallActivity"
+45-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:38:13-62
+46            android:configChanges="keyboardHidden|orientation|screenSize"
+46-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:39:13-74
+47            android:excludeFromRecents="true"
+47-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:40:13-46
+48            android:exported="false"
+48-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:41:13-37
+49            android:launchMode="singleTop"
+49-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:42:13-43
+50            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+50-->[com.google.ar:core:1.14.0] C:\Users\jangb\.gradle\caches\transforms-2\files-2.1\8bf5d0c4fa519d39469cd7a5dd2852b6\core-1.14.0\AndroidManifest.xml:43:13-77
+51    </application>
+52
+53</manifest>
