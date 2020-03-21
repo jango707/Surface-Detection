@@ -1,0 +1,49 @@
+{
+  materials: [
+    {
+      name: 'material_0.006',
+      parameters: [
+        {
+          baseColor: 'map_af6a6050-818e-40ad-a2fb-4723f232f00d_densified_mesh_textured_4096',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/PLSWORK.obj',
+    name: 'PLSWORK',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\map_af6a6050-818e-40ad-a2fb-4723f232f00d_densified_mesh_textured_4096.jpg',
+      name: 'map_af6a6050-818e-40ad-a2fb-4723f232f00d_densified_mesh_textured_4096',
+      pipeline_name: 'map_af6a6050-818e-40ad-a2fb-4723f232f00d_densified_mesh_textured_4096.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
